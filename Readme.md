@@ -1,6 +1,6 @@
 # backbone-events
 
-### Backbone's Events API ported to a component.
+### Backbone.Events API ported to a component.
 
   Events is a module that can be mixed in to any object, giving the object the ability to bind and trigger custom named events. Events do not have to be declared before they are bound, and may take passed arguments.
 
@@ -15,9 +15,12 @@ website](http://backbonejs.org/).
 
 
 ```js
+
+var BackboneEvents = require('timoxley/backbone-events')
+
 var object = {};
 
-_.extend(object, Backbone.Events);
+_.extend(object, BackboneEvents);
 
 object.on("alert", function(msg) {
   alert("Triggered " + msg);
@@ -75,4 +78,4 @@ Trigger callbacks for the given event, or space-delimited list of events. Subseq
 
 ## License
 
-MIT
+[MIT](https://github.com/timoxley/backbone-events/blob/master/LICENSE)

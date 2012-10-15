@@ -1,7 +1,7 @@
 {
   "name": "backbone-events",
   "repo": "timoxley/backbone-events",
-  "description": "Backbone Events API emulation on component/emitter",
+  "description": "Port of Backbone.Events API",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {

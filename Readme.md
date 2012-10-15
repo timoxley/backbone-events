@@ -16,7 +16,7 @@ website](http://backbonejs.org/).
 
 ```js
 
-var BackboneEvents = require('timoxley/backbone-events')
+var BackboneEvents = require('backbone-events')
 
 var object = {};
 
